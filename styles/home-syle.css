@@ -16,42 +16,64 @@
 header {
   height: 100vh;
   color: var(--font-primary);
-  background-image: url("../images/hero-image.jpg");
+  background-image: url("../images/hero-card2.jpg");
   background-size: cover;
   background-position: center;
-}
-
-.hero-sheet{
-  background-color: rgba(0, 0, 0, 0.2);
-  height: 100%;
 }
 
 /* navbar */
 
 /* separate file */
 
+/*          Hero section       */
 
-                 /*          Hero section       */
-
-
-
-.hero-text{
-  font-size: 1.1rem;
-  font-weight: 300;
+.hero-sheet {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
 }
 
-.hero-heading{
+.hero-section {
+  width: 50vw;
+  position: relative;
+  top: 38px;
+  left: 70px;
+}
+
+.hero-sub2 {
+  width: 70%;
+  margin-top: 40px;
+}
+
+.hero-text {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+
+.hero-heading {
   font-size: 3.125rem;
 }
 
+.hero-card-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-.hero-card{
-  height: 220px;
-  width: 166px;
+.hero-card {
+  height: 208px;
+  width: 28%;
   background-color: white;
-  color: #023F76;
+  color: #023f76;
   border: 10px solid white;
   border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.hero-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
 }
 
 .hero-card img {
@@ -61,29 +83,38 @@ header {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-
-
-  
 }
 
-
-
-
-@media (max-width: 770px) {
-  .menu-btn {
-    display: flex;
-  }
-  .navlinks ul {
-    display: none;
-  }
-
-  .navbar {
-    padding: 3% 5%;
-  }
+.hero-card-outertext {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.hero-card-outertext button {
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
 }
 
-@media (min-width: 770px) {
-  .sidebar {
-    display: none;
-  }
+.hero-card-outertext p {
+  font-weight: 500;
+}
+
+.hero-card-innertext {
+  padding: 5px;
+}
+
+.hero-card-innertext h3 {
+  font-size: 90%;
+}
+.hero-card-innertext p {
+  font-size: 80%;
+  margin-top: 7px;
+}
+
+.fa-person {
+  margin-right: 7px;
 }

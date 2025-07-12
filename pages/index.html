@@ -17,14 +17,13 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="../styles/home-syle.css" />
-    <link rel="stylesheet" href="../styles/navbar-style.css">
+    <link rel="stylesheet" href="../styles/navbar-style.css" />
     <title>Bookify / home</title>
   </head>
 
   <body>
     <header>
       <div class="hero-sheet">
-
         <!--     Navbar      -->
         <nav>
           <div class="navbar">
@@ -60,22 +59,55 @@
           </div>
         </nav>
 
-
         <!--   Hero section     -->
 
-        <section>
-          <div>
+        <section class="hero-section">
+
+          <!-- hero text section -->
+          <div class="hero-sub1">
             <p class="hero-text">MOUNTAINS | PLAINS | BEACHES</p>
-            <h1 class="hero-heading">Spend your vacations <br> with our activities</h1>
+            <h1 class="hero-heading">
+              Spend your vacations <br />
+              with our activities
+            </h1>
           </div>
 
-          <div>
-            <p>MOST POPULAR</p>
-            <div>
+          <!-- hero card section -->
+          <div class="hero-sub2">
+            <div class="hero-card-outertext">
+              <p>MOST POPULAR</p>
+              <button><i class="fa-solid fa-circle-arrow-right"></i></button>
+            </div>
+
+
+            <div class="hero-card-sec">
+              <!-- card 1 -->
+
               <div class="hero-card">
-                <img src="../images/hero-card1.jpg" alt="scotland" >
-                <h3>Trip to Scotland</h3>
-                <p><i class="fa-solid fa-person"></i> 31 people going</p>
+                <img src="../images/hero-card1.jpg" alt="Egypt" />
+                <div class="hero-card-innertext">
+                  <h3>Trip to Egypt</h3>
+                  <p><i class="fa-solid fa-person"></i> 31 people going</p>
+                </div>
+              </div>
+              <!-- card 2 -->
+
+              <div class="hero-card">
+                <img src="../images/hero-card2.jpg" alt="scotland" />
+                <div class="hero-card-innertext">
+                  <h3>Trip to Scotland</h3>
+                  <p><i class="fa-solid fa-person"></i> 21 people going</p>
+                </div>
+              </div>
+
+              <!-- card 3 -->
+
+              <div class="hero-card">
+                <img src="../images/hero-card3.jpg" alt="Greece" />
+                <div class="hero-card-innertext">
+                  <h3>Trip to Greece</h3>
+                  <p><i class="fa-solid fa-person"></i> 40 people going</p>
+                </div>
               </div>
             </div>
           </div>
