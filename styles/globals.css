@@ -1,0 +1,61 @@
+:root {
+  --main-font: roboto;
+
+  /* Font Colors */
+  --font-primary: white;
+  --font-secondary: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--main-font);
+}
+
+body {
+  width: 100%;
+  max-width: 1540px;
+  margin: 0 auto;
+  background-color: white;
+  border: 0.1px solid black;
+  /* padding: 20px; */
+}
+
+
+a{
+  text-decoration: none;
+}
+
+header {
+  color: var(--font-primary);
+  background-color: rgb(218, 216, 216);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-sheet {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+}
+
+/* about-hero */
+.about-hero {
+  padding: 18% 0;
+  align-content: center;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.about-hero-links {
+  font-size: 18px;
+}
+
+.about-hero-links a {
+  color: white;
+  font-size: 18px;
+}

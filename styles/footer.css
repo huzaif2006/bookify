@@ -1,0 +1,140 @@
+/* ================= Footer ================= */
+.subscribe-sec {
+  background-image: url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?cs=srgb&dl=pexels-thatguycraig000-1563356.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+  position: relative;
+  z-index: 0;
+}
+
+.subscribe-sec::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* dark overlay with 30% opacity */
+  z-index: -1;
+}
+
+.sec2-text {
+  text-align: center;
+  padding: 0px 6%;
+  color: white;
+}
+
+.sec2-text h2 {
+  font-size: 2.7rem;
+}
+
+.sec2-text p {
+  font-size: 1.1rem;
+  margin-top: 13px;
+  padding: 0px 24%;
+}
+
+/* ////////////////////// */
+.search-bar {
+  background-color: white;
+  padding: 8px 15px;
+  border-radius: 50px;
+  width: fit-content;
+}
+
+.search-items {
+  font-size: 17px;
+  margin-right: 50px;
+  padding: 15px 0px;
+  border: none;
+}
+
+.search-bar button {
+  font-size: 17px;
+  padding: 14px 20px;
+  background-color: black;
+  color: var(--font-primary);
+  border-radius: 35px;
+  transition: all 0.3s;
+}
+
+.search-bar button:hover {
+  transform: scale(1.02);
+}
+
+/* //////////////////////// */
+
+.subscribe-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3% 0;
+}
+
+.subscribe-field {
+  width: 250px;
+}
+
+.footer {
+  padding: 45px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(113, 112, 112);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.footer h2 {
+  font-size: 40px;
+}
+
+.footer h3 {
+  font-size: 23px;
+  margin-bottom: 6px;
+}
+
+.foot-col {
+  line-height: 40px;
+  width: 290px;
+}
+
+.social-links {
+  display: flex;
+  gap: 25px;
+}
+
+.social-links a {
+  font-size: 22px;
+  color: black;
+}
+
+.social-links a:hover {
+  transform: translateY(-5px);
+}
+
+.fa-location-dot,
+.fa-phone,
+.fa-envelope {
+  margin-right: 10px;
+  color: black;
+}
+
+.foot-strip {
+  background-color: black;
+  color: white;
+  padding: 30px 10px;
+}
+
+.foot-strip p {
+  text-align: center;
+  font-size: 17px;
+}

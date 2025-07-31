@@ -1,0 +1,212 @@
+@media (max-width: 770px) {
+  .menu-btn {
+    display: flex;
+  }
+  .navlinks ul {
+    display: none;
+  }
+
+  .navbar {
+    padding: 3% 5%;
+  }
+
+  /* ==================   About page  =========================== */
+}
+
+@media (min-width: 770px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 100vw;
+  }
+
+  .hero-section {
+    width: 100vw;
+    padding: 35px 0;
+  }
+
+  .hero-heading {
+    font-size: 3rem;
+  }
+
+  .hero-text {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+    /* padding: 0px 15px; */
+  }
+
+  .hero-sub1 {
+    padding: 3% 11%;
+  }
+  .hero-sub2 {
+    width: 100%;
+    margin-top: 40px;
+    display: none;
+  }
+  .hero-sub3 {
+    position: static;
+  }
+
+  .search-bar {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    width: 100vw;
+    padding: 16px 8px;
+    margin-top: 22px;
+    border-radius: 0%;
+  }
+
+  .search-items {
+    font-size: 17px;
+    width: 100%;
+    margin-bottom: 6px;
+    padding: 15px 12px;
+    border: 4px solid rgb(11, 11, 11, 0.3);
+    border-radius: 12px;
+    appearance: none;
+  }
+
+  .search-items:hover {
+    border: 4px solid rgb(11, 11, 11, 0.6);
+  }
+
+  /* section 1 */
+
+  .sec1-text h2 {
+    font-size: 2.7rem;
+  }
+
+  /* sec 2 */
+
+  .sec2-text p {
+    font-size: 1rem;
+    margin-top: 5px;
+    padding: 0;
+  }
+  .sec2-text h2 {
+    font-size: 2.3rem;
+  }
+
+  /* footer strip */
+  .foot-strip p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* ===============  About page   ====================== */
+  .about-hero h1 {
+    font-size: 35px;
+    margin-bottom: 4px;
+  }
+  .about-hero-links a {
+    color: white;
+    font-size: 14px;
+  }
+
+  /* about sec 1 */
+
+  .about-sec1 {
+    padding: 10% 5%;
+    gap: 30px;
+  }
+
+  .about-inner1 {
+    width: 100%;
+    gap: 10px;
+    padding: 0 20px;
+  }
+
+  .about-inner1 h2 {
+    font-size: 25px;
+  }
+
+  .about-sec1-icon {
+    font-size: 40px;
+  }
+
+  .about-inner1 p {
+    font-size: 12px;
+    color: #858585;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  /* about sec2 */
+  .about-sec2 {
+    padding: 60px 5%;
+    gap: 55px;
+  }
+
+  .about-inner2-icon {
+    font-size: 60px;
+  }
+
+  .about-inner2-text {
+    gap: 20px;
+  }
+  .about-inner2-text p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  /* ====== about sec 3====== */
+  .about-sec3 {
+    padding: 8% 10%;
+    gap: 32px;
+  }
+
+  .about-sec3-inner h3 {
+    font-size: 30px;
+  }
+
+  /* ========= about sec 4  ========== */
+
+  .about-sec-4 {
+    padding: 10% 6%;
+  }
+
+  .about-sec-4 h2 {
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+
+  /* ========= contact sec1============= */
+
+  .contact-sec1 {
+    padding: 15% 6%;
+  }
+
+  .contact-sec1-left {
+    width: 100%;
+  }
+  .contact-sec1-right {
+    width: 100%;
+  }
+
+  .contact-sec1-right h2{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.contact-sec1-right p{
+    font-size: 14px;
+}
+
+
+
+
+.contact-sec1-links h3{
+    font-size: 22px;
+}
+
+.contact-sec1-links a{
+    font-size: 14px;
+}
+
+}

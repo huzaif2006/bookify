@@ -1,51 +1,27 @@
-:root {
-  --main-font: roboto;
 
-  /* fonts */
-  --font-primary: white;
-  --font-secondary: black;
-}
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: var(--main-font);
-}
-
-body {
-  width: 100%;
-  max-width: 1530px;
-  margin: 0 auto;
-  background-color: white;
-  border: 0.5px solid black;
-  /* padding: 20px; */
-}
 
 header {
-  height: 100vh;
+  
   color: var(--font-primary);
   background-image: url("../images/hero-image.jpg");
   background-size: cover;
   background-position: center;
 }
 
-/* navbar */
+/* ================= Navbar ================= */
+/* (Handled in separate CSS file: navbar-style.css) */
 
-/* separate file */
 
-/*          Hero section       */
-
+/* ================= Hero Section ================= */
 .hero-sheet {
   background-color: rgba(0, 0, 0, 0.3);
   height: 100%;
 }
 
 .hero-section {
-  width: 50%;
-  position: relative;
-  top: 38px;
-  left: 70px;
+  width: 63%;
+  padding: 2% 4% 8%;
 }
 
 .hero-sub2 {
@@ -87,10 +63,7 @@ header {
 .hero-card img {
   width: 100%;
   height: 70%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-radius: 10px 10px 5px 5px;
 }
 
 .hero-card-outertext {
@@ -99,6 +72,7 @@ header {
   justify-content: space-between;
   margin-bottom: 8px;
 }
+
 .hero-card-outertext button {
   background: transparent;
   color: white;
@@ -118,6 +92,7 @@ header {
 .hero-card-innertext h3 {
   font-size: 90%;
 }
+
 .hero-card-innertext p {
   font-size: 80%;
   margin-top: 7px;
@@ -127,11 +102,10 @@ header {
   margin-right: 7px;
 }
 
+/*   search bar    */
 .hero-sub3 {
-  position: relative;
-  top: 10%;
-  left: 4%;
   width: fit-content;
+  margin-top: 32px;
 }
 
 .search-bar {
@@ -161,28 +135,26 @@ header {
   transform: scale(1.02);
 }
 
-/* main */
-/*               section 1             */
 
+/* ================= Main Section ================= */
 .sec-1 {
   padding: 60px 0px;
   background-color: white;
 }
 
-/* text sec */
 .sec1-text {
   text-align: center;
   padding: 0px 6%;
 }
+
 .sec1-text h2 {
   font-size: 3.438rem;
 }
+
 .sec1-text p {
   font-size: 1.125rem;
   margin-top: 17px;
 }
-
-/* card  sec */
 
 .sec1-card-parent {
   display: flex;
@@ -195,7 +167,6 @@ header {
 .sec1-card-item {
   height: 22.375rem;
   width: 20.5rem;
-
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: 0.3s;
@@ -209,7 +180,6 @@ header {
 .sec1-card-img {
   height: 70%;
   background-color: rgb(215, 214, 214);
-  /* background-image: url('../images/hero-image3.jpg'); */
   background-position: center;
   background-size: cover;
   border-top-left-radius: 8px;
@@ -231,8 +201,8 @@ header {
   margin-bottom: 2%;
 }
 
-/* sec 2 */
 
+/* ================= Section 2: Why Choose Us ================= */
 .sec-2 {
   background-image: url("../images/sec2-image.png");
   background-size: cover;
@@ -241,7 +211,6 @@ header {
 }
 
 .sec2-1st {
-  /* background-image: url("../images/sec2-image.png"); */
   background-size: cover;
   background-position: center;
   height: 90%;
@@ -252,15 +221,16 @@ header {
   color: white;
 }
 
-/* sec2 text sec */
 .sec2-text {
   text-align: center;
   padding: 0px 6%;
   color: white;
 }
+
 .sec2-text h2 {
   font-size: 2.7rem;
 }
+
 .sec2-text p {
   font-size: 1.1rem;
   margin-top: 13px;
@@ -308,6 +278,7 @@ header {
   font-size: 24px;
   margin-bottom: 10px;
 }
+
 .sec2-card p {
   font-size: 18px;
   color: #858585;
@@ -324,20 +295,20 @@ header {
   margin-left: 5px;
 }
 
-/*       sec 3         */
 
+/* ================= Section 3: Our Tour Partners ================= */
 .sec-3 {
   padding: 60px 0px;
 }
 
-.sec3-text {
+
+
+.sec3-text h2{
   color: black;
 }
 .sec3-text p {
   color: #858585;
 }
-
-/* brand sec */
 
 .sec3-brands {
   display: flex;
@@ -365,105 +336,22 @@ header {
 #brand1 {
   background-image: url("../images/brands/trivago.png");
 }
+
 #brand2 {
   background-image: url("../images/brands/airbnb.png");
 }
+
 #brand3 {
   background-image: url("../images/brands/agoda.png");
 }
+
 #brand4 {
   background-image: url("../images/brands/booking.webp");
 }
+
 #brand5 {
   background-image: url("../images/brands/expedia.png");
   background-size: cover;
 }
 
-/* work pending  */
 
-/*      main    footer             */
-
-/* subscribe sec */
-.subscribe-sec {
-  background-image: url("https://images.unsplash.com/photo-1749680287741-243118ed6b2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM1fENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D");
-  background-size: cover;
-  background-position: center;
-  padding: 40px 0;
-}
-
-.subscribe-bar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 3% 0;
-}
-
-.subscribe-field {
-  width: 250px;
-}
-
-/* sub footer  */
-.footer {
-  padding: 45px 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.footer ul {
-  list-style: none;
-}
-
-.footer a {
-  text-decoration: none;
-  color: black;
-  font-size: 17px;
-  font-weight: 500;
-  color: rgb(113, 112, 112);
-}
-
-.footer h2 {
-  font-size: 40px;
-}
-
-.footer h3 {
-  font-size: 23px;
-  margin-bottom: 6px;
-}
-
-.foot-col {
-  line-height: 40px;
-  width: 290px;
-}
-
-.social-links {
-  display: flex;
-  gap: 25px;
-}
-
-.social-links a {
-  font-size: 22px;
-  color: black;
-}
-
-.fa-location-dot,
-.fa-phone,
-.fa-envelope {
-  margin-right: 10px;
-  color: black;
-}
-
-/*  foot strip */
-
-.foot-strip {
-  background-color: black;
-  color: white;
-  padding: 30px 10px;
-}
-
-.foot-strip p {
-  text-align: center;
-  font-size: 17px;
-}

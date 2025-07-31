@@ -16,53 +16,52 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="../styles/home-style.css" />
+    <link rel="stylesheet" href="../styles/globals.css">
     <link rel="stylesheet" href="../styles/navbar-style.css" />
+    <link rel="stylesheet" href="../styles/home-style.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/responsive.css">
     <title>Bookify / home</title>
   </head>
 
   <body>
     <header>
       <div class="hero-sheet">
-        <!--     Navbar      -->
+        <!-- Navbar -->
         <nav>
           <div class="navbar">
             <div class="logo">
               <h2>Bookify</h2>
             </div>
             <div class="navlinks">
-              <ul>
-                <li><a class="nav-link" href="">Home</a></li>
-                <li><a class="nav-link" href="">About</a></li>
+            <ul>
+                <li><a class="nav-link" href="./index.html">Home</a></li>
+                <li><a class="nav-link" href="../pages/about.html">About</a></li>
                 <li><a class="nav-link" href="">Booking</a></li>
                 <li><a class="nav-link" href="">Blogs</a></li>
+                <li><a class="nav-link" href="./contact.html">Contact</a></li>
                 <li><a href="" class="nav-btn">Explore</a></li>
               </ul>
               <button class="menu-btn"><i class="fa-solid fa-bars"></i></button>
             </div>
           </div>
 
-          <!--   sidebar  for navigation  -->
+          <!-- Sidebar for navigation -->
           <div class="sidebar">
+            <button class="menu-btn"><i class="fa-solid fa-xmark"></i></button>
             <ul>
-              <li>
-                <button class="menu-btn">
-                  <i class="fa-solid fa-xmark"></i>
-                </button>
-              </li>
               <li><a href="">Home</a></li>
               <li><a href="">About</a></li>
               <li><a href="">Booking</a></li>
-              <li><a href="">Blogs</a></li>
-              <li><a href="" class="nav-btn">Explore</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Explore</a></li>
             </ul>
           </div>
         </nav>
 
-        <!--                            Hero section                        -->
-
+        <!-- Hero Section -->
         <section class="hero-section">
-          <!-- hero text section -->
+          <!-- Hero Text Section -->
           <div class="hero-sub1">
             <p class="hero-text">MOUNTAINS | PLAINS | BEACHES</p>
             <h1 class="hero-heading">
@@ -71,7 +70,7 @@
             </h1>
           </div>
 
-          <!-- hero card section -->
+          <!-- Hero Card Section -->
           <div class="hero-sub2">
             <div class="hero-card-outertext">
               <p>MOST POPULAR</p>
@@ -79,8 +78,7 @@
             </div>
 
             <div class="hero-card-sec">
-              <!-- card 1 -->
-
+              <!-- Card 1 -->
               <div class="hero-card">
                 <img src="../images/hero-card1.jpg" alt="Egypt" />
                 <div class="hero-card-innertext">
@@ -88,8 +86,8 @@
                   <p><i class="fa-solid fa-person"></i> 31 people going</p>
                 </div>
               </div>
-              <!-- card 2 -->
 
+              <!-- Card 2 -->
               <div class="hero-card">
                 <img src="../images/hero-card2.jpg" alt="scotland" />
                 <div class="hero-card-innertext">
@@ -98,8 +96,7 @@
                 </div>
               </div>
 
-              <!-- card 3 -->
-
+              <!-- Card 3 -->
               <div class="hero-card">
                 <img src="../images/hero-card3.jpg" alt="Greece" />
                 <div class="hero-card-innertext">
@@ -109,41 +106,37 @@
               </div>
             </div>
           </div>
-        </section>
 
-        <!-- serach bar for reservation -->
+          <!-- Search Bar for Reservation -->
+          <div class="hero-sub3">
+            <div class="search-bar">
+              <select class="search-items">
+                <option disabled selected value="">Location</option>
+                <option value="">Los Angles</option>
+                <option value="">Paris</option>
+                <option value="">Berlin</option>
+                <option value="">London</option>
+              </select>
 
-        <div class="hero-sub3">
-          <!-- 1st -->
-          <div class="search-bar">
-            <select name="" id="" class="search-items">
-              <option disabled selected value="">Location</option>
-              <option value="">Los Angles</option>
-              <option value="">Paris</option>
-              <option value="">Berlin</option>
-              <option value="">London</option>
-            </select>
-            <!-- second -->
-            <input type="date" name="date" class="search-items" />
+              <input type="date" name="date" class="search-items" />
 
-            <!-- third -->
-            <select name="" id="" class="search-items">
-              <option disabled selected value="">People</option>
-              <option value="">1 People</option>
-              <option value="">2 people</option>
-              <option value="">3 people</option>
-            </select>
+              <select class="search-items">
+                <option disabled selected value="">People</option>
+                <option value="">1 People</option>
+                <option value="">2 people</option>
+                <option value="">3 people</option>
+              </select>
 
-            <button>Explore now</button>
+              <button>Explore now</button>
+            </div>
           </div>
-        </div>
+        </section>
       </div>
     </header>
 
-    <!-- main content -->
-
+    <!-- Main Content -->
     <main>
-      <!--           1st  sec                -->
+      <!-- Section 1 -->
       <section class="sec-1">
         <div class="sec1-text">
           <h2>
@@ -154,6 +147,7 @@
         </div>
 
         <div class="sec1-card-parent">
+          <!-- Card Items -->
           <div class="sec1-card-item">
             <div class="sec1-card-img">
               <img src="../images/dubai.jpg" alt="burjkhalifa" />
@@ -189,7 +183,7 @@
         </div>
       </section>
 
-      <!--             second section                   -->
+      <!-- Section 2 -->
       <section class="sec-2">
         <div class="sec2-1st">
           <div class="sec2-text">
@@ -198,12 +192,10 @@
           </div>
 
           <div class="sec2-card-container">
-            <!-- 1st -->
             <div class="sec2-card">
               <div class="sec2-avatar">
                 <i class="fa-solid fa-person-walking-luggage fa-2xl"></i>
               </div>
-
               <div>
                 <h3>Best service</h3>
                 <p>
@@ -213,18 +205,16 @@
               </div>
               <a href="#">
                 Learn more
-                <span><i class="fa-solid fa-arrow-right-long"></i></span
-              ></a>
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
+              </a>
             </div>
 
-            <!-- 2nd -->
             <div class="sec2-card">
               <div class="sec2-avatar">
                 <i class="fa-solid fa-sack-dollar fa-2xl"></i>
               </div>
-
               <div>
-                <h3>Price Gurantee</h3>
+                <h3>Price Guarantee</h3>
                 <p>
                   our service is reliable and convenient, our service is
                   quality.
@@ -232,15 +222,14 @@
               </div>
               <a href="#">
                 Learn more
-                <span><i class="fa-solid fa-arrow-right-long"></i></span
-              ></a>
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
+              </a>
             </div>
-            <!-- 3rd -->
+
             <div class="sec2-card">
               <div class="sec2-avatar">
                 <i class="fa-solid fa-medal fa-2xl"></i>
               </div>
-
               <div>
                 <h3>Handpicked Hotels</h3>
                 <p>
@@ -250,26 +239,24 @@
               </div>
               <a href="#">
                 Learn more
-                <span><i class="fa-solid fa-arrow-right-long"></i></span
-              ></a>
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
+              </a>
             </div>
           </div>
         </div>
         <div class="sec2-2nd"></div>
       </section>
 
-      <!-- third section -->
-
+      <!-- Section 3 -->
       <section class="sec-3">
         <div class="sec2-text sec3-text">
-          <h2>Our Tour Patner</h2>
+          <h2>Our Tour Partner</h2>
           <p>
             There are many variation of passage of lorem ipsum available but the
             majority have suffered alteration
           </p>
         </div>
 
-        <!-- brand sec -->
         <div class="sec3-brands">
           <div class="brand-logo" id="brand1"></div>
           <div class="brand-logo" id="brand2"></div>
@@ -280,9 +267,8 @@
       </section>
     </main>
 
-    <!--    footer   -->
+    <!-- Footer -->
     <footer>
-      <!--   subscribe sec    -->
       <div class="subscribe-sec hero-sheet">
         <div class="sec2-text">
           <h2>Subcribe to get special price</h2>
@@ -291,7 +277,6 @@
             promotion and monthly newsletter
           </p>
         </div>
-        <!-- subscribe bar  -->
         <div class="subscribe-bar">
           <div class="search-bar">
             <input
@@ -300,7 +285,6 @@
               class="search-items subscribe-field"
               placeholder="Type Your email"
             />
-
             <button>Subscribe</button>
           </div>
         </div>
@@ -320,16 +304,16 @@
           <ul>
             <li>
               <a href=""
-                ><i class="fa-solid fa-location-dot"></i>732 Despard St,
+                ><i class="fa-solid fa-location-dot"></i> 732 Despard St,
                 Atlanta</a
               >
             </li>
             <li>
-              <a href=""><i class="fa-solid fa-phone"></i>+97 888 8888</a>
+              <a href=""><i class="fa-solid fa-phone"></i> +97 888 8888</a>
             </li>
             <li>
               <a href=""
-                ><i class="fa-solid fa-envelope"></i>info@traveller.com</a
+                ><i class="fa-solid fa-envelope"></i> info@traveller.com</a
               >
             </li>
           </ul>
@@ -340,7 +324,7 @@
           <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About Us</a></li>
-            <li><a href="">Blogs </a></li>
+            <li><a href="">Blogs</a></li>
             <li><a href="">Contact Us</a></li>
           </ul>
         </div>

@@ -1,0 +1,84 @@
+header {
+  background-image: url("../images/contact1.png");
+}
+
+
+/* form sec 1 */
+
+
+.contact-sec1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 8% 6%;
+}
+
+
+
+.contact-sec1-left{
+     width: 450px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 10% 6%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-fields{
+    font-size: 17px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 0.5px solid rgb(197, 194, 194);
+}
+
+.submit-btn{
+  font-size: 17px;
+  padding: 14px 20px;
+  background-color: black;
+  color: var(--font-primary);
+  border-radius: 35px;
+  transition: all 0.3s;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  transform: scale(1.02);
+}
+/* //////////// */
+
+.contact-sec1-right{
+    width: 450px;
+}
+
+
+.contact-sec1-right h2{
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+.contact-sec1-right p{
+    
+    color: #858585;
+    line-height: 22px;
+}
+
+
+.contact-sec1-links{
+    display:flex ;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 25px;
+
+}
+
+.contact-sec1-links h3{
+    font-size: 25px;
+}
+
+.contact-sec1-links a{
+    color: black;
+}
