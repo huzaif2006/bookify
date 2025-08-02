@@ -4,7 +4,7 @@
 header {
   
   color: var(--font-primary);
-  background-image: url("../images/hero-image.jpg");
+  background-image: url("../images/hero-image.webp");
   background-size: cover;
   background-position: center;
 }
@@ -204,7 +204,7 @@ header {
 
 /* ================= Section 2: Why Choose Us ================= */
 .sec-2 {
-  background-image: url("../images/sec2-image.png");
+  background-image: url("../images/sec2-image.webp");
   background-size: cover;
   background-position: center;
   padding: 50px 0px;
@@ -334,15 +334,15 @@ header {
 }
 
 #brand1 {
-  background-image: url("../images/brands/trivago.png");
+  background-image: url("../images/brands/trivago.webp");
 }
 
 #brand2 {
-  background-image: url("../images/brands/airbnb.png");
+  background-image: url("../images/brands/airbnb.webp");
 }
 
 #brand3 {
-  background-image: url("../images/brands/agoda.png");
+  background-image: url("../images/brands/agoda.webp");
 }
 
 #brand4 {
@@ -350,7 +350,7 @@ header {
 }
 
 #brand5 {
-  background-image: url("../images/brands/expedia.png");
+  background-image: url("../images/brands/expedia.webp");
   background-size: cover;
 }
 

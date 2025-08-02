@@ -2,7 +2,7 @@
 /* in here hero section we use classes which are placed in globals.css */
 
 header {
-  background-image: url("../images/hero-image2.jpg");
+  background-image: url("../images/hero-image2.webp");
 }
 
 
@@ -88,7 +88,7 @@ header {
 
 .about-sec3 {
   padding: 8% 4%;
-  background-image: url("../images/about-2.jpg");
+  background-image: url("../images/about-2.webp");
   background-size: cover;
   background-position: center;
   color: var(--font-primary);
